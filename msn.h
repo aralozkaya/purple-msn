@@ -112,8 +112,8 @@ typedef enum
 #define MSN_BUF_LEN 8192
 
 /* Windows Live Messenger Server*/
-#define MSN_SERVER "m1.escargot.chat"
-#define MSN_HTTPCONN_SERVER "gateway.m1.escargot.chat"
+#define MSN_SERVER "ds.escargot.nina.chat"
+#define MSN_HTTPCONN_SERVER "ds.escargot.nina.chat"
 #define MSN_PORT 1863
 #define WLM_PROT_VER		18
 
@@ -123,7 +123,7 @@ typedef enum
 #define MSN_TYPING_RECV_TIMEOUT 6
 #define MSN_TYPING_SEND_TIMEOUT	4
 
-#define PROFILE_URL "http://spaces.live.com/profile.aspx?mem="
+#define PROFILE_URL "http://ds.escargot.nina.chat/Profile.aspx?partner=Messenger&mem="
 #define PHOTO_URL	" contactparams:photopreauthurl=\""
 
 #define BUDDY_ALIAS_MAXLEN 387
